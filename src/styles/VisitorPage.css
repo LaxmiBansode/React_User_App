@@ -1,0 +1,69 @@
+.visitor-page {
+  height: 100vh;
+  position: relative;
+  padding: 20px;
+}
+
+.center-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: #ffffff;
+  padding: 40px 35px;
+  border-radius: 60px;
+  box-shadow: 0 8px 25px black;
+  width: 500px;
+  text-align: center;
+  color: #222;
+}
+
+.visitor-page h2 {
+  text-align: center;
+  color: #100f0f;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.input-group button {
+  padding: 10px 15px;
+  background-color: #2d72d9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.input-group button:hover {
+  background-color: #1c4fad;
+}
+
+.visitor-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.visitor-list li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.visitor-page h2,
+.visitor-page h3,
+.visitor-page p,
+.visitor-page li {
+  color: #222; /* dark gray for better contrast */
+}

@@ -1,0 +1,50 @@
+.event-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  padding: 20px;
+  color: #222;
+}
+
+.card {
+  background: #ffffff;
+  padding: 40px 35px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  width: 500px;
+  min-height: 450px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.event-page h2 {
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.input-group button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.input-group button:hover {
+  background-color: #218838;
+}
